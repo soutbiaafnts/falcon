@@ -1,4 +1,4 @@
-<img alt="millennium falcon" src="./assets/banner.jpg" style="width:100%; height:150px; object-fit:cover;"/>
+<img alt="millennium falcon" src="./assets/banner.png" >
 
 <h1 align="center">FALCON</h1>
 
