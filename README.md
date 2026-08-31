@@ -29,10 +29,9 @@
 - [Engenharia de Software](#15-engenharia-de-software)
 - [Organização da Equipe](#16-organização-da-equipe)
 - [Indicadores de Validação](#17-indicadores-de-validação)
-- [Cronograma](#18-cronograma)
-- [Critérios de Aceite](#19-critérios-de-aceite)
-- [Preparação para o TCC](#20-preparação-para-o-tcc)
-- [Conclusão](#21-conclusão)
+- [Critérios de Aceite](#18-critérios-de-aceite)
+- [Preparação para o TCC](#19-preparação-para-o-tcc)
+- [Conclusão](#20-conclusão)
 
 ---
 
@@ -44,7 +43,7 @@ O projeto integra conceitos de Sistemas Embarcados, Internet das Coisas (IoT), A
 
 A Iniciação Científica terá como foco o desenvolvimento de um protótipo funcional capaz de armazenar medicamentos, realizar a dispensação automática em horários programados, registrar eventos e fornecer uma interface simples para pacientes e cuidadores.
 
-O Trabalho de Conclusão de Curso será uma evolução natural deste projeto, incorporando comunicação via Internet, banco de dados, dashboard web, acompanhamento remoto e geração de relatórios.
+O Trabalho de Conclusão de Curso será uma evolução natural deste projeto, incorporando comunicação via Internet e geração de relatórios.
 
 ---
 
@@ -104,6 +103,7 @@ O Falcon deverá:
 - impedir acesso ao estoque pelo paciente;
 - detectar retirada do copo;
 - registrar retirada ou ausência de retirada;
+- impedir a dispensação de outros medicamentos em ausência de retirada;
 - exibir informações em display;
 - manter configurações mesmo após desligamento.
 
@@ -141,30 +141,25 @@ Durante o funcionamento:
 
 1. O Falcon monitora continuamente o horário através do RTC.
 2. Quando chega o horário programado:
-
    - o buzzer é acionado;
    - o display informa que há um medicamento disponível.
 3. O paciente pressiona o botão de confirmação.
 4. O mecanismo gira até o compartimento correspondente.
 5. O medicamento é conduzido por um funil até um copo apoiado sobre uma célula de carga.
 6. Quando o paciente retira o copo:
-
    - o Falcon registra o evento;
    - encerra o alarme.
 7. Caso o copo não seja retirado:
-
    - o alarme é repetido periodicamente.
 8. Após 30 minutos sem retirada:
-
    - registra "medicamento não retirado";
-   - considera o horário encerrado e segue para o próximo evento programado.
+   - considera o horário encerrado e trava o próximo evento programado até que a retirada seja detectada.
 
 ---
 
 # 8. Arquitetura Mecânica
 
 O Falcon será composto por:
-
 - estrutura cilíndrica fixa;
 - haste central;
 - conjunto de palhetas acopladas à haste;
@@ -174,7 +169,7 @@ O Falcon será composto por:
 - suporte para copo;
 - compartimento eletrônico.
 
-A haste central será movimentada por um motor de passo.
+A haste central será movimentada por um servo motor 360˚.
 
 Cada posição angular corresponderá a um compartimento.
 
@@ -228,14 +223,14 @@ Botões:
 ## Atuadores
 
 - buzzer ativo;
-- motor de passo (NEMA 17 ou equivalente).
+- servo motor 360˚.
 
 ---
 
 ## Sensores
 
 - célula de carga + HX711;
-- sensor Hall ou chave fim de curso para posição HOME.
+- sensor Hall e ímã de neodímio para posição HOME.
 
 ---
 
@@ -461,69 +456,7 @@ O Falcon será avaliado através de indicadores objetivos.
 
 ---
 
-# 18. Cronograma
-
-## Fase 1 – Planejamento (Julho)
-
-- levantamento de requisitos;
-- arquitetura;
-- definição dos componentes;
-- compra de materiais.
-
----
-
-## Fase 2 – Desenvolvimento Inicial
-
-- software básico;
-- display;
-- RTC;
-- menus;
-- armazenamento.
-
----
-
-## Fase 3 – Desenvolvimento Mecânico
-
-- impressão;
-- montagem;
-- mecanismo de rotação;
-- sensores.
-
----
-
-## Fase 4 – Integração
-
-- software;
-- eletrônica;
-- mecânica.
-
----
-
-## Marco – 17 de Agosto
-
-Protótipo funcional contendo:
-
-- configuração de horários;
-- alarme;
-- posicionamento;
-- dispensação;
-- detecção da retirada;
-- registro local.
-
----
-
-## Fase 5 – Refinamento
-
-Até metade de setembro.
-
-- calibração;
-- testes;
-- documentação;
-- correções.
-
----
-
-# 19. Critérios de Aceite
+# 18. Critérios de Aceite
 
 O Falcon será considerado funcional quando:
 
@@ -537,7 +470,7 @@ O Falcon será considerado funcional quando:
 
 ---
 
-# 20. Preparação para o TCC
+# 21. Preparação para o TCC
 
 A arquitetura será preparada para reutilização.
 
@@ -556,13 +489,9 @@ Interface Local
 No TCC serão adicionados:
 
 - Wi-Fi;
-- API REST;
-- Banco de Dados;
-- Dashboard Web;
 - Relatórios;
 - Estatísticas;
 - Notificações;
-- Atualizações OTA.
 
 Nenhum desses recursos exigirá reescrever o núcleo do software.
 
@@ -572,4 +501,4 @@ Nenhum desses recursos exigirá reescrever o núcleo do software.
 
 O Falcon será desenvolvido como um **produto de engenharia**, e não apenas como um protótipo acadêmico. O projeto seguirá uma abordagem baseada em levantamento de requisitos, desenvolvimento incremental, modularização de hardware e software, integração contínua e validação por indicadores objetivos.
 
-Essa estratégia permitirá que a Iniciação Científica entregue um sistema funcional, confiável e tecnicamente consistente, ao mesmo tempo em que estabelece uma base sólida para o Trabalho de Conclusão de Curso. A evolução futura poderá concentrar esforços na conectividade, monitoramento remoto e análise de dados, preservando toda a arquitetura desenvolvida na IC e reduzindo significativamente o retrabalho.
+Essa estratégia permitirá que a Iniciação Científica entregue um sistema funcional, confiável e tecnicamente consistente, ao mesmo tempo em que estabelece uma base sólida para o Trabalho de Conclusão de Curso. A evolução futura poderá concentrar esforços na conectividade e análise de dados, preservando toda a arquitetura desenvolvida na IC e reduzindo significativamente o retrabalho.
