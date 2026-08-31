@@ -10,14 +10,6 @@
 
 </div>
 
-O Falcon é um sistema embarcado para dispensação automática de medicamentos desenvolvido com foco na autonomia de idosos e na redução da necessidade de acompanhamento constante por cuidadores.
-
-O projeto integra conceitos de Sistemas Embarcados, Internet das Coisas (IoT), Automação, Engenharia de Software, Robótica e Modelagem 3D para desenvolver um dispositivo de baixo custo, modular e preparado para futuras expansões.
-
-A Iniciação Científica terá como foco o desenvolvimento de um protótipo funcional capaz de armazenar medicamentos, realizar a dispensação automática em horários programados, registrar eventos e fornecer uma interface simples para pacientes e cuidadores.
-
-O Trabalho de Conclusão de Curso será uma evolução natural deste projeto, incorporando comunicação via Internet, banco de dados, dashboard web, acompanhamento remoto e geração de relatórios.
-
 ## Índice
 
 - [Introdução](#1-introdução)
