@@ -240,6 +240,23 @@ Botões:
 - bateria recarregável;
 - conversor DC-DC.
 
+## Valores
+
+- [ESP32 DevKit V1](https://www.mercadolivre.com.br/esp32-30-pino-doit-devkit-com-esp32-wroom-32-wifi-bluetooth/p/MLB2038780923?pdp_filters=item_id:MLB3914402941#is_advertising=true&searchVariation=MLB2038780923&backend_model=search-backend;EQ:ESP32%20NODEMCU;EQ:ESP32%20WROOM&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=4d1debf9-8a6a-42a1-9800-cc507a36f91b&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZTYwMzdhODEtMTA4Yi00Y2VhLWEyMmYtZTY1MDQ5N2Q4Y2Q1): R$ 32,70
+- [RTC DS3231](https://www.mercadolivre.com.br/modulo-real-time-rtc-ds3231/p/MLB41384231?pdp_filters=item_id:MLB4970079878#is_advertising=true&searchVariation=MLB41384231&backend_model=search-backend;EQ:MODULO%20RTC;EQ:RTC%20DS3231%20MODULO;EQ:MODULO%20RTC%203231;EQ:RTC%20DS3231%20ARDUINO&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=c17a0cc6-e659-4e7b-901a-14bb75c5008c&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=N2ExN2VmZjctZGYzOC00YzhkLTgxMzYtOGUyZDRiMzZlN2Rj): R$ 19,19
+- [Display OLED 128x64 I²C](https://www.mercadolivre.com.br/modulo-display-oled-tela-096-i2c-ssd1306-lcd-arduino-pic/up/MLBU773901547?pdp_filters=item_id:MLB3892633142#is_advertising=true&searchVariation=MLBU773901547&backend_model=search-backend;EQ:SSD1306;EQ:OLED%20096%20I2C;EQ:DISPLAY%20OLED%20128X64%20I2C%20AZUL;EQ:DISPLAY%20OLED%20128X64%20I2C&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=63dfb182-08c7-4a85-abdb-91708b91d7fa&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZTk4MDMwMDMtZDIwNC00YTVmLThhZmUtYmNkZDAzMGViN2Ji): R$ 17,98
+- [4 botões](https://www.mercadolivre.com.br/kit-com-500--chave-tactil-6x6x5mm-4t-180-graus/up/MLBU3226780648?pdp_filters=item_id:MLB4087872511#polycard_client=recommendations_vip-pads-up&wid=MLB4087872511&sid=recos&reco_backend=recomm_platform_base_pads_rfa_MERGE_marketplace&reco_model=recos_backend_only&reco_client=vip-pads-up&reco_item_pos=2&reco_backend_type=low_level&reco_id=7c3d9f05-d357-4f24-a1d6-46cf5ef65fd5&is_advertising=true&ad_domain=VIPDESKTOP_UP&ad_position=3&ad_click_id=NTk4YmRhMzMtNDkyMS00NGJiLWE2MWMtZWU3ODlmNWRiNzQ3): ≃ R$ 0,38
+- [Buzzer ativo](https://www.mercadolivre.com.br/buzzer-ativo-5v-sinal-beep-arduino-raspberry-som/up/MLBU3872444152?pdp_filters=item_id:MLB6524026378#is_advertising=true&searchVariation=MLBU3872444152&backend_model=search-backend;EQ:BUZZER%205V;EQ:BUZZER%20ATIVO%205V&be_origin=backend&position=3&search_layout=grid&type=pad&tracking_id=111eae54-e435-4e59-ac77-3eb81cb5ed3e&ad_domain=VQCATCORE_LST&ad_position=3&ad_click_id=YzRmZGM3MmEtZGNlNi00NmRjLWIzN2MtYzQzYjFlZDcwNGEz): R$ 7,92
+- [Servo motor 360˚](https://www.mercadolivre.com.br/servo-motor-tower-pro-mg90d-360-graus/p/MLB68229896#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=7&type=product&tracking_id=ab3f713d-84e9-4777-bbec-be6a654796b7&wid=MLB6655136984&sid=search): R$ 33,44
+- [Célula de carga + HX711](https://www.mercadolivre.com.br/1-celula-de-carga-1kg-sensor-peso--1-modulo-hx711-arduino/up/MLBU750020937?pdp_filters=item_id:MLB2693893440#is_advertising=true&searchVariation=MLBU750020937&backend_model=search-backend;EQ:CELULA%20CARGA%2010KG&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=721b0252-50d7-46a9-80fa-e40b20ddbfcb&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=YmZmOTcxMTEtNDdkOS00NjNmLThlYzItYTA3MjZmMjcyMThm): R$ 27,92
+- [Sensor Hall](https://www.mercadolivre.com.br/kit-10-sensores-magnetico-de-efeito-hall-ss41f-41f-c-nfe/up/MLBU755274844?pdp_filters=item_id:MLB2855778087#is_advertising=true&searchVariation=MLBU755274844&backend_model=search-backend;EQ:SENSOR%20EFEITO%20HALL&be_origin=backend&position=3&search_layout=grid&type=pad&tracking_id=04c8adaf-76b5-4a32-be34-4bbb23488635&ad_domain=VQCATCORE_LST&ad_position=3&ad_click_id=Yjc0OWZiODItYjc0Yi00NTRjLWE1MzUtYzlmMTI1ZWI4MmQ0): R$ 2,19
+- [Imã de Neodímio](https://www.mercadolivre.com.br/ima-de-neodimio-10x2-redondo-pequeno-10mm-x-2mm-n35-10pcs/p/MLB32490961#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=5&type=product&tracking_id=5e0b6c7d-64b2-4396-afaf-7d3ca2b69a1a&wid=MLB5320606870&sid=search): R$ 2,22
+- [Fonte externa](): R$
+- [Bateria recarregável](): R$
+- [Conversor DC-DC](): R$
+
+**Total:** ≃ R$ 143,94
+
 ---
 
 # 11. Tecnologias
